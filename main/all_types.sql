@@ -1,0 +1,31 @@
+create table main.all_types
+(
+    int              INT,
+    integer          INTEGER,
+    tinyint          TINYINT,
+    smallint         SMALLINT,
+    mediumint        MEDIUMINT,
+    bigint           BIGINT,
+    u_bigint         UNSIGNED BIG INT,
+    int2             INT2,
+    int8             INT8,
+    char_20          CHARACTER(20),
+    varchar_255      VARCHAR(255),
+    varchar2_255     VARYING CHARACTER(255),
+    nchar_55         NCHAR(55),
+    nchar_70         NATIVE CHARACTER(70),
+    nvarchar_100     NVARCHAR(100),
+    text             TEXT,
+    clob             CLOB,
+    blob             BLOB,
+    real             REAL,
+    double           DOUBLE,
+    double_precision DOUBLE PRECISION,
+    float            FLOAT,
+    numeric          NUMERIC,
+    decimal_10_5     DECIMAL(10, 5),
+    boolean          BOOLEAN,
+    date             DATE,
+    datetime         DATETIME
+);
+
